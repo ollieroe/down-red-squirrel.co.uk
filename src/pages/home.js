@@ -19,18 +19,25 @@ function Home () {
 
             <div className='box-container'>
                 <div className='box-item'>
-                    <div className='box-item-1'></div>
-                    <div className='box-item-2'></div>
-                    Hello
+                    <div className='box-item-1' id="box-1"></div>
+                    <div className='box-item-2'>
+                        <p>Sightings</p>
+                    </div>
                 </div>
                 <div className='box-item'>
-                <div className='box-item-1'></div>
-                <div className='box-item-2'></div>
-                    Squirrel
-                </div><div className='box-item'>
-                <div className='box-item-1'></div>
-                <div className='box-item-2'></div>
-                    People
+                    <div className='box-item-1'id="box-2">
+                    </div>
+                    <div className='box-item-2'>
+                    <p>Meet Ups</p>
+
+                    </div>
+                </div>
+                <div className='box-item'>
+                    <div className='box-item-1' id="box-3"></div>
+                    <div className='box-item-2'>
+                    <p>How to help</p>
+
+                    </div>
                 </div>
             </div>
         </div>
