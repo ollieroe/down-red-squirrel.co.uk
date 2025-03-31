@@ -61,8 +61,22 @@ body {
   }
 
   .img-div{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  #sq-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .img-div{
     margin-top: 1rem;
-    height: 50vh;
+    height: 55vh;
     background-color: var(--background-color3);
   }
 
@@ -88,29 +102,38 @@ body {
     align-items: center;
     border: 1px solid black;
     border-radius: 25px;
-    height: 10rem;
+    height: 15rem;
     width: 15rem;
+    margin-top: 1rem;
+    flex-direction: column;
+    overflow: hidden;
   }
 
   .box-item-1{
-    height: 50%;
+    height: 70%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 40%;
     background-color: aqua;
   }
-  .box-item-1{
-    height: 50%;
-    background-color:blueviolet;
-  }
-
-  .img-div{
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-  }
-
-  #sq-banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
+  .box-item-2{
+    height: 30%;
+    background-color: #F3F1E4;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #box-1{
+    background-image: url("./images/box-items/box-1.jpg");
+  }
+
+  #box-2{
+    background-image: url("./images/box-items/box-2.jpg");
+  }
+
+  #box-3{
+    background-image: url("./images/box-items/box-3.jpg");
   }
