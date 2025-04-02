@@ -9,7 +9,7 @@ import banner from "../images/Squirrel-banner.jpeg"
 
 function Home () {
     return (
-        <div>
+        <div className='main'>
             <div className='img-div'>
                 <img src={banner} alt='Image of a squirrel sat on a branch' id="sq-banner"></img>
             </div>
@@ -28,15 +28,13 @@ function Home () {
                     <div className='box-item-1'id="box-2">
                     </div>
                     <div className='box-item-2'>
-                    <p>Meet Ups</p>
-
+                        <p>Meet Ups</p>
                     </div>
                 </div>
                 <div className='box-item'>
                     <div className='box-item-1' id="box-3"></div>
                     <div className='box-item-2'>
-                    <p>How to help</p>
-
+                        <p>How to help</p>
                     </div>
                 </div>
             </div>

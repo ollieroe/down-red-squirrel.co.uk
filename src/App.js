@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
 import Navbar from './Components/navBar';
+import Footer from './pages/footer';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Gallery from './pages/gallery';
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/GetInvolved" element={<GetInvolved />}/>
           <Route exact path="/Sightings" element={<Sightings />}/>
       </Routes>
+      <Footer />
     </div>
   );
 }

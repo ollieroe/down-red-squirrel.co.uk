@@ -12,8 +12,9 @@
 
 .app{
   margin: auto;
-  width: 80%;
+  width: 90%;
   height: 100%;
+  background-color: var(--background-color2);
 }
 
 body {
@@ -25,6 +26,8 @@ body {
   width: 100%;
   margin: auto;
   height: 100%;
+  background-color: var(--background-color2);
+
 }
 
 .navBar{
@@ -36,7 +39,8 @@ body {
     align-items: center;
     justify-content: flex-end;
     background-color: var(--background-color2);
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom:0.5rem;
   }
 
 .navElement{
@@ -60,6 +64,10 @@ body {
     margin-right: auto;
   }
 
+  .main {
+    width: 99%;
+  }
+
   .img-div{
     overflow: hidden;
     display: flex;
@@ -78,6 +86,7 @@ body {
     margin-top: 1rem;
     height: 55vh;
     background-color: var(--background-color3);
+    width: 100%;
   }
 
   .info-text{
@@ -115,7 +124,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 40%;
-    background-color: aqua;
   }
   .box-item-2{
     height: 30%;
@@ -136,4 +144,22 @@ body {
 
   #box-3{
     background-image: url("./images/box-items/box-3.jpg");
+  }
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+  }
+
+  .footer-logo{
+    height: 5rem;
+    width: 5rem;
+  }
+
+  #foot-1{
+    background-image: url("./images/footer-imgs/NationalTrustUKLogo.svg.png");
+    background-color: red;
+
   }
