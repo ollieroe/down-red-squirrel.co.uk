@@ -150,16 +150,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 5rem;
+    gap: 20px;
+    padding: 5px;
+
+  }
+
+  .logo-div{
+    display: flex;
+    flex-direction: row;
   }
 
   .footer-logo{
     height: 5rem;
     width: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 40%;
   }
 
-  #foot-1{
-    background-image: url("./images/footer-imgs/NationalTrustUKLogo.svg.png");
-    background-color: red;
+  #footer-1{
+    background-image: url("./images/footer-imgs/NationalTrustUKLogo.svg.webp");
+  }
 
+  #footer-2{
+    background-image: url("./images/footer-imgs/Ulster-Wildlife\ Logo-Portrait\ Nature.png");
+  }
+
+  #bottom-footer{
+    display: flex;
   }
