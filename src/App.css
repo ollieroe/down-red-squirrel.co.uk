@@ -12,7 +12,7 @@
 
 .app{
   margin: auto;
-  width: 90%;
+  width: 100%;
   height: 100%;
   background-color: var(--background-color2);
 }
@@ -35,25 +35,25 @@ body {
     position: sticky;
     top: 0;
     background-color: white;
+    margin: auto;
     width: 100%;
     align-items: center;
     justify-content: flex-end;
     background-color: var(--background-color2);
     padding-top: 1rem;
-    padding-bottom:0.5rem;
+    padding-left: 1rem;
   }
 
 .navElement{
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
-  /* flex-grow: 1; */
-  margin-right: 3%;
+  margin-right: 3rem;
 }
 
   .navLogo{
-    height: 7rem;
+    height: 5rem;
     border-radius: 50%;
+    margin-left: 1rem;
     margin-right: auto;
     -webkit-box-shadow: 0px 19px 33px -17px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 19px 33px -17px rgba(0,0,0,0.75);
@@ -62,10 +62,6 @@ body {
 
   .navLeft{
     margin-right: auto;
-  }
-
-  .main {
-    width: 99%;
   }
 
   .img-div{
@@ -89,9 +85,19 @@ body {
     width: 100%;
   }
 
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .info-text{
+    display: flex;
+    justify-content: center;
     margin-top: 3rem;
     text-align: center;
+    width: 60%;
   }
 
   .box-container{
@@ -109,7 +115,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     border-radius: 25px;
     height: 15rem;
     width: 15rem;
@@ -148,18 +153,28 @@ body {
 
   .footer{
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 5rem;
+    height: 100%;
     gap: 20px;
-    padding: 5px;
+    background-color: var(--background-color1);
+  }
 
+  .footer-nav{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content:space-evenly;
+    gap: 2rem;
   }
 
   .logo-div{
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    background-color: inherit;
   }
 
   .footer-logo{
@@ -167,7 +182,6 @@ body {
     width: 5rem;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 40%;
   }
 
   #footer-1{
@@ -179,5 +193,11 @@ body {
   }
 
   #bottom-footer{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: inherit;
   }
+
+

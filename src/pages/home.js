@@ -13,9 +13,9 @@ function Home () {
             <div className='img-div'>
                 <img src={banner} alt='Image of a squirrel sat on a branch' id="sq-banner"></img>
             </div>
-                <p className='info-text'>Red Squirrels are an important part of our native woodlands and they need your help
-                </p>
-                <p className='info-text'>That’s why we’re here to help</p>
+                <p className='info-text'>At The Heart of Down Red Squirrel Charity, we are dedicated to protecting and conserving one of the UK's most iconic and endangered species – the red squirrel. Once widespread across the country, red squirrels are now under threat due to habitat loss, disease, and competition from the invasive grey squirrel. </p>
+                    
+                <p className='info-text'> With fewer than 120,000 red squirrels left in the wild, their future is uncertain, but together, we can make a difference. Our charity focuses on vital conservation efforts such as habitat restoration, the installation of squirrel boxes, and monitoring squirrel populations to ensure their survival. Through education and community involvement, we raise awareness and empower people to help protect these incredible creatures. </p>
 
             <div className='box-container'>
                 <div className='box-item'>

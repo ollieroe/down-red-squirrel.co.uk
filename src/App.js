@@ -12,8 +12,9 @@ import Home from './pages/home';
 
 function App() {
   return (
-    <div className='app'>
+    <div >
       <Navbar />
+      <div className='app'>
       <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/About" element={<About />} />
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/GetInvolved" element={<GetInvolved />}/>
           <Route exact path="/Sightings" element={<Sightings />}/>
       </Routes>
+      </div>
       <Footer />
     </div>
   );
