@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from './Components/navBar';
 import Footer from './pages/footer';
 import About from './pages/about';
@@ -9,6 +9,7 @@ import Gallery from './pages/gallery';
 import GetInvolved from './pages/getInvolved';
 import Sightings from './pages/sightings';
 import Home from './pages/home';
+import Videos from './Components/videos';
 
 function App() {
   return (

@@ -2,9 +2,7 @@ import React from 'react'
 import '../App.css'
 import logo from '../images/red-squirrel-logo.jpg'
 import {
-    BrowserRouter as Router,
-    Routes,
-    Route, Link
+     Link
 } from "react-router-dom";
 
 function Footer () {

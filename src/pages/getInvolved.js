@@ -1,16 +1,15 @@
 import React from 'react'
 import '../App.css'
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route, Link
-} from "react-router-dom";
-import Navbar from '../Components/navBar';
 
 function GetInvolved () {
     return (
-        <div>
-        <h1>This is the Get Involved page</h1>
+        <div className='main'>
+            <div className='title'>
+                <h1>Get Involved</h1>
+                <div className='line-div'></div>
+                <div className="sightings">
+                </div>
+            </div>
         </div>
     )
 }

@@ -1,11 +1,7 @@
 import React from "react";
 import logo from '../images/red-squirrel-logo.jpg'
 import '../App.css'
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route, Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { Routes, Route, Link } from "react-router-dom";
 
 

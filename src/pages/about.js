@@ -1,15 +1,15 @@
 import React from 'react'
 import '../App.css'
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route, Link
-} from "react-router-dom";
 
 function About () {
     return (
-        <div>
-        <h1>This is the about</h1>
+        <div className='main'>
+            <div className='title'>
+                <h1 >About</h1>
+                <div className='line-div'></div>
+                <div className="sightings">
+                </div>
+            </div>
         </div>
     )
 }
