@@ -26,8 +26,8 @@ function Footer () {
 
             <div className='footer-nav-column'>
                 <h5>Contact</h5>
-                <p>heartofdownredsquirrel@gmail.co.uk</p>
-                <p>07789432643</p>
+                <p>heartofdownreds@gmail.com</p>
+                <p>07568066953</p>
                 <p>Castle Ward, Downpatrick, Northern Ireland</p>
             </div>
 

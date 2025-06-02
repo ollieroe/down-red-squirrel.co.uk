@@ -1,10 +1,11 @@
 import React from 'react'
 import '../App.css'
-import banner from "../images/Squirrel-banner.jpeg"
+import banner from "../images/AdobeStock_57670976_Preview.jpeg"
 
 function Home () {
     return (
         <div className='main'>
+
             <div className='img-div'>
                 <img src={banner} alt='Squirrel sat on a branch' id="sq-banner"></img>
                 <div className='hero-text'>

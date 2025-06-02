@@ -1,4 +1,3 @@
-
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Navbar from './Components/navBar';
@@ -9,11 +8,14 @@ import Gallery from './pages/gallery';
 import GetInvolved from './pages/getInvolved';
 import Sightings from './pages/sightings';
 import Home from './pages/home';
-import Videos from './Components/videos';
+import ScrollToTop from './Components/scrollToTop';
+import SquirrellInformation from './pages/squirrellInformation';
+import NewsLetter from './pages/newsLetter';
 
 function App() {
   return (
     <div >
+      <ScrollToTop />
       <Navbar />
       <div className='app'>
       <Routes>
@@ -23,6 +25,8 @@ function App() {
           <Route exact path="/Gallery" element={<Gallery />}/>
           <Route exact path="/GetInvolved" element={<GetInvolved />}/>
           <Route exact path="/Sightings" element={<Sightings />}/>
+          <Route exact path="/SquirrellInformation" element={<SquirrellInformation />}/>
+          <Route exact path="/NewsLetter" element={<NewsLetter />}/>
       </Routes>
       </div>
       <Footer />
