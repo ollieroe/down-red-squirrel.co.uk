@@ -442,3 +442,18 @@ body {
     text-align: center;
   }
 
+  .h3-title{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .underline{
+    border-bottom: #DE752C solid;
+  }
+
+  .bottom-spacer{
+    margin-bottom: 2rem;
+  }
+

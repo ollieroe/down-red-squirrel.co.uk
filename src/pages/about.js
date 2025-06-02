@@ -6,7 +6,6 @@ import banner from "../images/AdobeStock_134985579_Preview.jpeg";
 import squirrell1 from "../images/squirrel-pictures/bob-brewer-TibuM7sy21o-unsplash.jpg";
 import squirrell2 from "../images/squirrel-pictures/AdobeStock_334005837_Preview.jpeg";
 import squirrell3 from "../images/squirrel-pictures/dusan-veverkolog-AuapWMoAv5w-unsplash.jpg";
-import { useEffect } from "react";
 
 
 function About() {
@@ -17,6 +16,7 @@ function About() {
         <h1>About</h1>
         <div className="line-div"></div>
         </div>
+        
         <div className="img-div">
           <img src={banner} alt="Squirrel picture" id="sq-banner2"></img>
           <p class="img-text">
