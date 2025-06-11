@@ -3,6 +3,7 @@ import '../App.css'
 import banner from "../images//squirrel-pictures/AdobeStock_334005837_Preview.jpeg";
 
 
+
 function SquirrellInformation () {
     return (
         <div className='main'>
@@ -14,7 +15,7 @@ function SquirrellInformation () {
             </div>
 
             <article>
-            <h3 className="h3-title"><span className='underline'>The Red Squirrel/Grey Squirrel/Pine Marten dynamic</span></h3>
+            <h3 className="h3-title"><span className='line-div'>The Red Squirrel/Grey Squirrel/Pine Marten dynamic</span></h3>
 
             <p>
             American grey squirrels were introduced to Ireland as a wedding present in the early 1900s.

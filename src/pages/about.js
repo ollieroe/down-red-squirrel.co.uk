@@ -26,7 +26,7 @@ function About() {
           </p>
         </div>
 
-        <section>
+        <section class="green-background">
         <div class="about-container">
             <div class="container-left">
               <img src={squirrell3} class="sq-img"></img>
@@ -39,7 +39,7 @@ function About() {
           </div>
 
 
-          <div class="about-container">
+          <div class="about-container reverse-column">
             <div class="container-left about-text">
               <p>
                 In 2022, in partnership with Ulster Wildlife, the National
@@ -78,8 +78,8 @@ function About() {
           </div>
         </div>
 
-        <p class="about-text center-text">The Heart of Down Red Squirrel Group have featured in local media, BBC’s One Show and Spring Watch.
-        If you are interested in finding out more about our group, or have information on red squirrels, please contact us on heartofdownreds@gmail.com or mobile 07568066953</p>
+        <p class="about-text center-text bottom-spacer">The Heart of Down Red Squirrel Group have featured in local media, BBC’s One Show and Spring Watch.
+        If you are interested in finding out more about our group, or have information on red squirrels, please contact us on <a href="mailto:heartofdownreds@gmail.com" className="footer-link line-div" alt="Email the heart of down red squirrell group">heartofdownreds@gmail.com</a> or mobile <a href="tel: 07568066953" className="footer-link line-div" alt="Call the heart of down red squirrell group">07568066953</a></p>
 
 
 

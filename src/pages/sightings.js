@@ -18,7 +18,6 @@ function Sightings () {
         }
     }
 
-
     return (
         <div className='main'>
             <div className='title'>

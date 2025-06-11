@@ -1,17 +1,56 @@
 import React from 'react'
 import '../App.css'
 import banner from "../images/AdobeStock_57670976_Preview.jpeg"
+import Carousel from 'react-bootstrap/Carousel';
+import squirrelImg from "../images/squirrel-pictures/AdobeStock_334005837_Preview.jpeg"
+import squirrelImg2 from "../images/squirrel-pictures/dusan-veverkolog-AuapWMoAv5w-unsplash.jpg"
+import {Link} from "react-router-dom";
+
 
 function Home () {
     return (
         <div className='main'>
+            
+            <div>
+                <h1 className='hero-text'>We're the Heart of Down Red Squirrel Group</h1>
+            </div>
 
+<Carousel fade className='carousel bottom-spacer'>
+      <Carousel.Item className='carousel-item'>
+
+      <img src={banner} alt='Squirrel picture' className="sq-banner"></img>
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <img src={squirrelImg} alt='Squirrel picture' className="sq-banner"></img>
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <img src={squirrelImg2} alt='Squirrel picture' className="sq-banner"></img>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+
+{/* 
             <div className='img-div'>
-                <img src={banner} alt='Squirrel sat on a branch' id="sq-banner"></img>
+                <img src={banner} alt='Squirrel sat on a branch' className="sq-banner"></img>
                 <div className='hero-text'>
                     <h1>We're the Heart of Down Red Squirrel Group</h1>
                 </div>
-            </div>
+            </div> */}
 
             <div className='hero-info'>
                 <p >
@@ -34,25 +73,37 @@ function Home () {
                 
 
             <div className='box-container'>
+            <Link to="/sightings" className="footer-link">                
                 <div className='box-item'>
                     <div className='box-item-1' id="box-1"></div>
                     <div className='box-item-2'>
                         <p>Sightings</p>
                     </div>
                 </div>
+            </Link>
+            
+            <Link to="/getInvolved" className="footer-link">
                 <div className='box-item'>
-                    <div className='box-item-1'id="box-2">
+                        <div className='box-item-1'id="box-2">
+                        </div>
+                        <div className='box-item-2'>
+                            <p>Get Involved</p>
+                        </div>
                     </div>
-                    <div className='box-item-2'>
-                        <p>Meet Ups</p>
-                    </div>
-                </div>
-                <div className='box-item'>
+            </Link>
+            
+            <Link to="/newsLetter" className="foot-link">
+                    <div className='box-item'>
                     <div className='box-item-1' id="box-3"></div>
                     <div className='box-item-2'>
-                        <p>How to help</p>
+                        <p>Newsletter</p>
                     </div>
                 </div>
+                    </Link>
+            
+
+
+
             </div>
         </div>
     )
