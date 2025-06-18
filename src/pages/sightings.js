@@ -22,6 +22,8 @@ function Sightings () {
         <div className='main'>
             <div className='title'>
             <h1 >Sightings</h1>
+            <div className='line-div'></div>
+
             </div>
                 <div className='line-div'></div>
                     <div className="sightings">
